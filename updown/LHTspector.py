@@ -3,7 +3,7 @@ import pyslha
 
 from LHTclass import *
 
-sini=pyslha.read('set.ini', ignorenobr=True, ignorenomass=True)
+sini=pyslha.read('LHTset.ini', ignorenobr=True, ignorenomass=True)
 ff=sini.blocks['LHT'][1]
 rr=sini.blocks['LHT'][2]
 kaq1=sini.blocks['LHT'][3]

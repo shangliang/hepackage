@@ -119,27 +119,27 @@ class param:
 		cont=cont.replace("rp6",       str(self.kal1))
 		cont=cont.replace("rp7",       str(self.kal2))
 		cont=cont.replace("rp8",       str(self.kal3))
-		cont=cont.replace("rpMHd",     str(self.MHd))
-		cont=cont.replace("rpMHu",     str(self.MHu))
-		cont=cont.replace("rpMHs",     str(self.MHs))
-		cont=cont.replace("rpMHc",     str(self.MHc))
-		cont=cont.replace("rpMHb",     str(self.MHb))
-		cont=cont.replace("rpMHt",     str(self.MHt))
-		cont=cont.replace("rpMHTodd",  str(self.MHTodd))
-		cont=cont.replace("rpMHTeven", str(self.MHTeven))
-		cont=cont.replace("rpMHe",     str(self.MHe))
-		cont=cont.replace("rpMHve",    str(self.MHve))
-		cont=cont.replace("rpMHmu",    str(self.MHmu))
-		cont=cont.replace("rpMHvm",    str(self.MHvm))
-		cont=cont.replace("rpMHta",    str(self.MHta))
-		cont=cont.replace("rpMHvt",    str(self.MHvt))
-		cont=cont.replace("rpMAH",     str(self.MAH))
-		cont=cont.replace("rpMZH",     str(self.MZH))
-		cont=cont.replace("rpMWH",     str(self.MWH))
-		cont=cont.replace("rpMPhi0",   str(self.MPhi0))
-		cont=cont.replace("rpMPhiP",   str(self.MPhiP))
-		cont=cont.replace("rpMPhiC",   str(self.MPhiC))
-		cont=cont.replace("rpMPhiCC",  str(self.MPhiCC))
+		cont=cont.replace("rpMHd_",    str(self.MHd))
+		cont=cont.replace("rpMHu_",    str(self.MHu))
+		cont=cont.replace("rpMHs_",    str(self.MHs))
+		cont=cont.replace("rpMHc_",    str(self.MHc))
+		cont=cont.replace("rpMHb_",    str(self.MHb))
+		cont=cont.replace("rpMHt_",    str(self.MHt))
+		cont=cont.replace("rpMHTodd_", str(self.MHTodd))
+		cont=cont.replace("rpMHTeven_",str(self.MHTeven))
+		cont=cont.replace("rpMHe_",    str(self.MHe))
+		cont=cont.replace("rpMHve_",   str(self.MHve))
+		cont=cont.replace("rpMHmu_",   str(self.MHmu))
+		cont=cont.replace("rpMHvm_",   str(self.MHvm))
+		cont=cont.replace("rpMHta_",   str(self.MHta))
+		cont=cont.replace("rpMHvt_",   str(self.MHvt))
+		cont=cont.replace("rpMAH_",    str(self.MAH))
+		cont=cont.replace("rpMZH_",    str(self.MZH))
+		cont=cont.replace("rpMWH_",    str(self.MWH))
+		cont=cont.replace("rpMPhi0_",  str(self.MPhi0))
+		cont=cont.replace("rpMPhiP_",  str(self.MPhiP))
+		cont=cont.replace("rpMPhiC_",  str(self.MPhiC))
+		cont=cont.replace("rpMPhiCC_", str(self.MPhiCC))
 
 		f.write(cont);
 		f.close();
@@ -195,27 +195,27 @@ Block mass
    23 9.118760e+01 # MZ 
    24 8.038500e+01 # MW 
    25 1.250000e+02 # MH 
-  8880001 rpMHd    # MHd 
-  8880002 rpMHu    # MHu 
-  8880003 rpMHs    # MHs 
-  8880004 rpMHc    # MHc 
-  8880005 rpMHb    # MHb 
-  8880006 rpMHt    # MHt 
-  8880007 rpMHTodd # MHTodd 
-  8880008 rpMHTeven # MHTeven 
-  8880011 rpMHe    # MHe 
-  8880012 rpMHve   # MHve 
-  8880013 rpMHmu   # MHmu 
-  8880014 rpMHvm   # MHvm 
-  8880015 rpMHta   # MHta 
-  8880016 rpMHvt   # MHvt 
-  8880022 rpMAH    # MAH 
-  8880023 rpMZH    # MZH 
-  8880024 rpMWH    # MWH 
-  8880025 rpMPhi0  # MPhi0 
-  8880026 rpMPhiP  # MPhiP 
-  8880027 rpMPhiC  # MPhiC 
-  8880028 rpMPhiCC # MPhiCC 
+  8880001 rpMHd_     # MHd 
+  8880002 rpMHu_     # MHu 
+  8880003 rpMHs_     # MHs 
+  8880004 rpMHc_     # MHc 
+  8880005 rpMHb_     # MHb 
+  8880006 rpMHt_     # MHt 
+  8880007 rpMHTodd_  # MHTodd 
+  8880008 rpMHTeven_ # MHTeven 
+  8880011 rpMHe_     # MHe 
+  8880012 rpMHve_    # MHve 
+  8880013 rpMHmu_    # MHmu 
+  8880014 rpMHvm_    # MHvm 
+  8880015 rpMHta_    # MHta 
+  8880016 rpMHvt_    # MHvt 
+  8880022 rpMAH_     # MAH 
+  8880023 rpMZH_     # MZH 
+  8880024 rpMWH_     # MWH 
+  8880025 rpMPhi0_   # MPhi0 
+  8880026 rpMPhiP_   # MPhiP 
+  8880027 rpMPhiC_   # MPhiC 
+  8880028 rpMPhiCC_  # MPhiCC 
 ## Dependent parameters, given by model restrictions.
 ## Those values should be edited following the 
 ## analytical expression. MG5 ignores those values 
